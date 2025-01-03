@@ -4,63 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rishe Sivagnanam | Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="resources/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Quicksand:300,400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="resources/favicon.png" type="image/png">
 </head>
 <body>
-    <header>
-        <h1>Rishe Sivagnanam</h1>
-        <h2>Systems Engineer & Technical Program Manager</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="volunteer.html">Volunteer Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I’m passionate about solving complex problems at the intersection of engineering, healthcare, and innovation. 
-            With extensive experience in systems engineering and technical program management, I’ve led cross-functional 
-            teams to develop high-impact solutions in regulated industries. As I advance in my career, I’m excited to 
-            expand my expertise across industries, embracing new opportunities to innovate and learn along the way.
-        </p>
-    </section>
-
-    <section id="projects">
-        <h2>Featured Projects</h2>
-        <ul>
-            <li><a href="pump.html">Pump Pairing Feature</a> - Led design and implementation of secure BLE pairing mechanisms for insulin pumps.</li>
-            <li><a href="vertebral.html">Vertebral Endplate Engagement</a> - Developed an expandable spinal cage to improve contact area and reduce subsidence risk.</li>
-            <li><a href="pedicle.html">Pedicle Screws</a> - Explored feasibility and design improvements for bone-to-hardware adhesion.</li>
-            <li><a href="cell.html">Cell Mechanics Research</a> - Investigated red blood cell mechanics to support diagnostic advancements.</li>
-        </ul>
-    </section>
-
-    <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-            <li><a href="https://doi.org/10.1016/j.jocn.2019.05.017">Improvement in vertebral endplate engagement using a novel expandable cage</a> - J Clin Neurosci, 2019.</li>
-        </ul>
-    </section>
-
-    <section id="volunteer">
-        <h2>Volunteer Work</h2>
-        <ul>
-            <li>VP of Membership - Toastmasters</li>
-            <li>Scholarship Reviewer - Antelope Valley College Foundation</li>
-            <li>Career Mentor - Bostonia Global High School</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:sivagnanamrishe@gmail.com">sivagnanamrishe@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/rishe-sivagnanam">linkedin.com/in/rishe-sivagnanam</a></p>
-    </section>
+    <div id="main">
+        <div id="head">
+            <h1 class="highlighted">RISHE SIVAGNANAM</h1>
+            <h2>Systems Engineer & Technical Program Manager</h2>
+            <img id="aboutImg" src="resources/about.png" />
+            <div id="icons">
+                <a href="https://www.linkedin.com/in/rishe-sivagnanam" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div id="links">
+                <a href="resources/resume.pdf" target="_blank">CV</a> | <a href="resources/portfolio.pdf" target="_blank">Portfolio</a>
+            </div>
+        </div>
+        <div id="content">
+            <div class="section">
+                <h2>ABOUT ME</h2>
+                <p>
+                    I’m passionate about solving complex problems at the intersection of engineering, healthcare, and innovation. 
+                    With extensive experience in systems engineering and technical program management, I’ve led cross-functional 
+                    teams to develop high-impact solutions in regulated industries. As I advance in my career, I’m excited to 
+                    expand my expertise across industries, embracing new opportunities to innovate and learn along the way.
+                </p>
+            </div>
+            <div class="section">
+                <h2>NOTABLE PROJECTS</h2>
+                <div id="projectGrid">
+                    <div class="projectItem">
+                        <a href="pump.html">
+                            <img src="resources/pump.png">
+                            <h2>Pump Pairing Feature</h2>
+                        </a>
+                        <p>Led design and implementation of secure BLE pairing mechanisms for insulin pumps.</p>
+                    </div>
+                    <div class="projectItem">
+                        <a href="vertebral.html">
+                            <img src="resources/vertebral.png">
+                            <h2>Vertebral Endplate Engagement</h2>
+                        </a>
+                        <p>Developed an expandable spinal cage to improve contact area and reduce subsidence risk.</p>
+                    </div>
+                    <div class="projectItem">
+                        <a href="pedicle.html">
+                            <img src="resources/pedicle.png">
+                            <h2>Pedicle Screws</h2>
+                        </a>
+                        <p>Explored feasibility and design improvements for bone-to-hardware adhesion.</p>
+                    </div>
+                    <div class="projectItem">
+                        <a href="cell.html">
+                            <img src="resources/cell.png">
+                            <h2>Cell Mechanics Research</h2>
+                        </a>
+                        <p>Investigated red blood cell mechanics to support diagnostic advancements.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>PUBLICATIONS</h2>
+                <p>
+                    <a href="https://doi.org/10.1016/j.jocn.2019.05.017" target="_blank">Improvement in vertebral endplate engagement using a novel expandable cage</a> - J Clin Neurosci, 2019.
+                </p>
+            </div>
+            <div class="section">
+                <h2>VOLUNTEER WORK</h2>
+                <ul>
+                    <li>VP of Membership - Toastmasters</li>
+                    <li>Scholarship Reviewer - Antelope Valley College Foundation</li>
+                    <li>Career Mentor - Bostonia Global High School</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>CONTACT</h2>
+                <p>Email: <a href="mailto:sivagnanamrishe@gmail.com">sivagnanamrishe@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/rishe-sivagnanam">linkedin.com/in/rishe-sivagnanam</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
